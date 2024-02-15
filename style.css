@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(28, 26, 49);
+}
+
+.game{
+    max-width: 80%;
+    margin: 3rem auto;
+    background-color: rgb(210, 210, 210);
+    border: 5px solid black;
+    padding: 1rem;
+}
+
+.stats{
+    display: flex;
+    gap: 1.5rem;
+    margin: 1rem 0;
+    border: 2px solid black;
+    padding: 0.2rem;
+}
+
+.stat{
+    padding: 0;
+    margin: 0;
+}
+
+.move{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+.button{
+    background-color: rgb(241, 184, 103);
+    border: 3px solid orange;
+    border-radius: 3px;
+}
+
+.monsterStats{
+    display: none;
+    gap: 1.5rem;
+    margin: 1rem 0;
+    border: 2px solid rgb(255, 12, 12);
+    background-color: rgb(255, 84, 84);
+    padding: 0.2rem;
+}

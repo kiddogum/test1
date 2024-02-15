@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RPG Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <main class="wrapper">
+        <div class="game">
+            <div class="stats">
+                <p class="stat">XP : <span class="xpText">0</span></p>
+                <p class="stat">health : <span class="healthText">100</span></p>
+                <p class="stat">Gold : <span class="goldText">50</span></p>
+            </div>
 
+            <div class="move">
+                <button class="button button1">Go to store</button>
+                <button class="button button2">Go to cave</button>
+                <button class="button button3">Fight dragon</button>
+            </div>
+
+            <div class="monsterStats">
+                <p class="stat">monster name : <span class="monsterNameText">slime</span></p>
+                <p class="stat">health : <span class="monsterHealthText">15</span></p>
+            </div>
+
+            <div class="text-wrapper">
+                <p class="text">Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.
+
+                </p>
+            </div>
+        </div>
+    </main>
+    <script src="config.js"></script>
 </body>
 </html>
